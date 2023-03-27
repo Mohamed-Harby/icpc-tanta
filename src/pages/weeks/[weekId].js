@@ -25,10 +25,11 @@ export default week;
 
 export async function getServerSideProps(context) {
   const res = await fetch(
-    `http://localhost:3000/api/weeks/${context.params.weekId}`
+    `https://raw.githubusercontent.com/Mohamed-Harby/icpc-tanta/main/src/data/weeks.json`
   );
   const data = await res.json();
+  const week = data.find((week) => week.id === context.params.weekId);
   return {
-    props: { data: data },
+    props: { data: week },
   };
 }

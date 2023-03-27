@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import WeekCard from "@/components/WeekCard";
-// import weeks from "@/data/weeks";
 import styles from "@/styles/Content.module.css";
 const content = ({ weeks }) => {
   return (
@@ -29,17 +28,10 @@ const content = ({ weeks }) => {
 
 export default content;
 
-// export async function getStaticProps() {
-//   const req = await fetch("https://jsonplaceholder.typicode.com/posts");
-//   const data = await req.json();
-
-//   return {
-//     props: { posts: data },
-//   };
-// }
-
 export async function getServerSideProps() {
-  const res = await fetch("http://localhost:3000/api/weeks");
+  const res = await fetch(
+    "https://raw.githubusercontent.com/Mohamed-Harby/icpc-tanta/main/src/data/weeks.json"
+  );
   const data = await res.json();
   return {
     props: { weeks: data },
