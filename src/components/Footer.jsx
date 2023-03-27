@@ -10,6 +10,11 @@ const Footer = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        flexDirection: "column",
+        flexWrap: "wrap",
+        paddingLeft: "1rem",
+        paddingRight: "1rem",
+        marginTop: "3rem",
         color: "#fff",
       }}
     >
