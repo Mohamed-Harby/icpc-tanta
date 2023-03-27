@@ -31,17 +31,22 @@ const Navbar = () => {
         style={{ flex: 1 }}
       >
         <ul className={styles.navbarNav}>
-          <li className={styles.navItem}>
-            <Link
-              className={({ isActive }) =>
-                isActive
-                  ? `${styles.navLink}  ${styles.active}`
-                  : `${styles.navLink}`
-              }
-              href="/weeks"
+          <li>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-between",
+                alignItems: "center",
+              }}
             >
-              <div className={styles.contentTab}>Training content</div>
-            </Link>
+              <Link href="/">
+                <div className={styles.contentTab}>Home</div>
+              </Link>
+              <Link href="/weeks">
+                <div className={styles.contentTab}>Training content</div>
+              </Link>
+            </div>
           </li>
           {/* <li className={styles.navItem}> */}
           <div className={styles.socailSection}>
