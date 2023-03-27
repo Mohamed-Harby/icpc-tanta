@@ -21,7 +21,7 @@ const WeekCard = ({ id, name, title, resourcesCount, problemsCount }) => {
             </h3>
           </div>
           <div className={styles.cardStatics}>
-            <div className={styles.staticsButton}>
+            <div className={styles.staticsButtonResources}>
               <Image
                 src={resourcesLogo}
                 alt="resources"
@@ -29,10 +29,10 @@ const WeekCard = ({ id, name, title, resourcesCount, problemsCount }) => {
                 height="18px"
               />
               <p style={{ color: "#fff", fontSize: "0.9rem" }}>
-                {resourcesCount} Resources
+                {`${resourcesCount} Resources`}
               </p>
             </div>
-            <div className={styles.staticsButton}>
+            <div className={styles.staticsButtonProblems}>
               <Image
                 src={problemsLogo}
                 alt="resources"
@@ -40,7 +40,7 @@ const WeekCard = ({ id, name, title, resourcesCount, problemsCount }) => {
                 height="18px"
               />
               <p style={{ color: "#fff", fontSize: "0.9rem" }}>
-                {problemsCount} Problems
+                {`${problemsCount} Problems`}
               </p>
             </div>
           </div>

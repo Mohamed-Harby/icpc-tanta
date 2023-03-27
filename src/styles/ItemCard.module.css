@@ -11,9 +11,12 @@
     margin-top: 1rem;
     padding-left: 15px;
     padding-right: 15px;
+    /* // make change solwer */
+    transition: all 0.15s ease-in-out;
+
 }
 
 .wrapper:hover {
-    background-color: #3E4D5E;
+    background-color: rgba(252, 180, 0, 0.8);
     cursor: pointer;
 }

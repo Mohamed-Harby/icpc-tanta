@@ -2,17 +2,25 @@
     background-color: #24303D;
     width: 100%;
     padding: 15px;
-    border-radius: 30px;
     /* padding-right: 40px; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    /* make borde linear gradient with three colors*/
+    /* border-style: solid;
+    border-width: 2px; */
+    /* background: linear-gradient(to right, #487fc1, #fcb400, #af2a1b) 1; */
+    /* background: linear-gradient(to bottom, #487fc1 0%, #fcb400 50%, #af2a1b 100%) 1; */
+    border: 2px solid rgba(62, 77, 94, 0.3);
+    border-radius: 30px;
+    transition: all 0.1s ease-in-out;
 }
 
 .wrapper:hover {
     background-color: #3E4D5E;
     cursor: pointer;
+    transform: scale(1.02); 
 }
 
 .cardTitle { 
@@ -28,9 +36,9 @@
     align-items: center;
     justify-content: flex-start;
     padding-top: 1rem;
-  }
+}
 
-  .staticsButton {
+.staticsButtonResources {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -41,4 +49,40 @@
     padding-right: 10px;
     height: 34px;
     border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* // make change solwer */
+    transition: all 0.2s ease-in-out;
   }
+
+  .staticsButtonProblems {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #3E4D5E;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 34px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* // make change solwer */
+    transition: all 0.2s ease-in-out;
+  }
+
+
+.wrapper:hover .staticsButtonResources {
+    background-color:  rgba(72, 127, 193, 0.8);
+    cursor: pointer;
+}
+
+.wrapper:hover .staticsButtonProblems {
+    background-color:  rgba(252, 180, 0, 0.8);
+    cursor: pointer;
+}
+
+  /* .staticsButton:hover {
+
+  } */

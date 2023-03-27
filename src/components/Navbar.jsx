@@ -7,6 +7,8 @@ import facebookLogo from "@svgs/facebook.svg";
 import telegramLogo from "@svgs/telegram.svg";
 import vjudgeLogo from "@svgs/vjudge.svg";
 import { NavbarRedirection } from "./NavbarRedirection";
+import Logo from "@svgs/logo.svg";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
@@ -41,10 +43,22 @@ const Navbar = () => {
               }}
             >
               <Link href="/">
-                <div className={styles.contentTab}>Home</div>
+                {/* <div className={styles.contentTab}>Home</div> */}
+                <Image
+                  src={Logo}
+                  alt="Logo"
+                  width={45}
+                  height={45}
+                  style={{
+                    cursor: "pointer",
+                    marginRight: "1rem",
+                    marginTop: "5px",
+                    marginLeft: "10px",
+                  }}
+                />
               </Link>
               <Link href="/weeks">
-                <div className={styles.contentTab}>Training content</div>
+                <div className={styles.contentTab}>Content</div>
               </Link>
             </div>
           </li>

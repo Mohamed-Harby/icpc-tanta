@@ -90,7 +90,7 @@
 }
 
 .contentTab:hover {
-    background-color: #3E4D5E;
+    background-color:  rgba(72, 127, 193, 0.8);
     border-radius: 5px;
     cursor: pointer;
 }
@@ -103,6 +103,8 @@
     flex-wrap: wrap;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
 
 

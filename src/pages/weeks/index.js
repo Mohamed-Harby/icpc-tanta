@@ -30,7 +30,7 @@ export default content;
 
 export async function getServerSideProps() {
   const res = await fetch(
-    "https://raw.githubusercontent.com/Mohamed-Harby/icpc-tanta/main/src/data/weeks.json"
+    "https://gist.githubusercontent.com/Mohamed-Harby/894234d4f421b85da47931cd81762b80/raw/69f926c287e31ebe14c16ffe8718673ef4277de6/weeks.json"
   );
   const data = await res.json();
   return {

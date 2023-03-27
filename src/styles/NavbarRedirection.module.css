@@ -1,5 +1,5 @@
 .redirectionLink:hover {
-    background-color: #3E4D5E;
+    background-color:  rgba(72, 127, 193, 0.8);
     border-radius: 5px;
     cursor: pointer;
     display: flex;

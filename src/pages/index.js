@@ -13,12 +13,10 @@ export default function Home() {
       <h1 className={styles.title}>Welcome to ICPC Tanta Community!</h1>
       <p className={styles.description}>
         Join our community to learn new skills, exchange tips and tricks,
-        participate in practice sessions, get feedback and guidance from
-        experienced mentors and coaches, and stay updated on the latest news and
-        events related to the ICPC.
+        participate in practice sessions, and get guidance from our mentors.
       </p>
       <div className={styles.joinSection}>
-        <p className={styles.joinText}>Our training is open</p>
+        <p className={styles.joinText}>Our training is open!</p>
         <button className={styles.joinButton} onClick={handleJoinClick}>
           Join Now
         </button>
