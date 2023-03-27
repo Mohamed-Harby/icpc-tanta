@@ -1,0 +1,134 @@
+/* .navbar {
+    background-color: #7399c0;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    gap: 1rem;
+} */
+
+.active {
+    color: red;
+    font-weight: 900;
+    background-color: violet;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: #1E2934; */
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    background-color: #1E2934;
+    width:100vw;
+    margin-bottom: 2rem;
+    min-height: 55px;
+
+}
+
+.navbarNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    padding: 0.2rem;
+}
+
+.navbarNav li {
+    padding: 0 1rem;
+}
+
+.navbarNav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* .navbarNav a:hover {
+    color: #1d1f23;
+    background-color: #fff;
+}
+
+.navbarNav a:active {
+    color: #1d1f23;
+    background-color: #fff;
+}
+
+.navbarNav a:visited {
+    color: #1d1f23;
+    background-color: #fff;
+} */
+
+.navbarToggler {
+    display: none;
+}
+
+.navbarTogglerIcon {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath stroke='rgba(20, 20, 20, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.active {
+    background-color: #3E4D5E;
+    border-radius: 115px;
+}
+
+
+.contentTab {
+    padding: 7px;
+}
+
+.contentTab:hover {
+    background-color: #3E4D5E;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.socailSection {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 7px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbarNav {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .navbarNav li {
+        padding: 1rem 0;
+    }
+
+    .navbarToggler {
+        display: block;
+        cursor: pointer;
+    }
+    .socailSection {
+        align-items: center;
+        justify-content: center;
+    }
+}

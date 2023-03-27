@@ -1,0 +1,19 @@
+.wrapper {
+    background-color: #24303D;
+    width: 100%;
+    padding: 6px;
+    border-radius: 10px;
+    /* padding-right: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.wrapper:hover {
+    background-color: #3E4D5E;
+    cursor: pointer;
+}

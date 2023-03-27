@@ -1,0 +1,168 @@
+[
+  {
+    "id": "0",
+    "name": "Week 0",
+    "title": "Online Judge, I/O, Data Types, Mod, Conditions",
+    "resources": [
+      {
+        "id": 0,
+        "name": "Codeforces Introduction",
+        "link": "https://www.youtube.com/watch?v=wKM6bQdtBbo&themeRefresh=1"
+      },
+      {
+        "id": 1,
+        "name": "C++ Playlist - First 10 Videos",
+        "link": "https://www.youtube.com/playlist?list=PLPt2dINI2MIbwnEoeHZnUHeUHjTd8x4F3"
+      },
+      {
+        "id": 2,
+        "name": "C++ Playlist - First 10 Videos",
+        "link": "https://www.youtube.com/playlist?list=PLCInYL3l2AajFAiw4s1U4QbGszcQ-rAb3"
+      },
+      {
+        "id": 3,
+        "name": "Conditions",
+        "link": "https://www.youtube.com/playlist?list=PLCInYL3l2AajFAiw4s1U4QbGszcQ-rAb3"
+      }
+    ],
+    "problems": [
+      {
+        "id": 0,
+        "name": "A. Way Too Long Words",
+        "link": "https://codeforces.com/problemset/problem/71/A"
+      },
+      {
+        "id": 1,
+        "name": "B. Word",
+        "link": "https://codeforces.com/problemset/problem/59/B"
+      },
+      {
+        "id": 2,
+        "name": "C. Vasya and Socks",
+        "link": "https://codeforces.com/problemset/problem/460/C"
+      },
+      {
+        "id": 3,
+        "name": "D. Vasya and Digital Root",
+        "link": "https://codeforces.com/problemset/problem/355/D"
+      },
+      {
+        "id": 4,
+        "name": "E. Vasya and String",
+        "link": "https://codeforces.com/problemset/problem/676/E"
+      },
+      {
+        "id": 5,
+        "name": "F. Vasya and Multisets",
+        "link": "https://codeforces.com/problemset/problem/1051/F"
+      },
+      {
+        "id": 6,
+        "name": "G. Vasya and Books",
+        "link": "https://codeforces.com/problemset/problem/1077/G"
+      },
+      {
+        "id": 7,
+        "name": "H. Vasya and Beautiful Arrays",
+        "link": "https://codeforces.com/problemset/problem/1085/H"
+      },
+      {
+        "id": 8,
+        "name": "I. Vasya and Robot",
+        "link": "https://codeforces.com/problemset/problem/354/I"
+      },
+      {
+        "id": 9,
+        "name": "J. Vasya and Chess",
+        "link": "https://codeforces.com/problemset/problem/493/J"
+      },
+      {
+        "id": 10,
+        "name": "K. Vasya and Wrestling",
+        "link": "https://codeforces.com/problemset/problem/493/K"
+      },
+      {
+        "id": 11,
+        "name": "L. Vasya and Isolated Vertices",
+        "link": "https://codeforces.com/problemset/problem/1065/L"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "week 1",
+    "title": "Loops, 1D Array",
+    "resources": [
+      {
+        "name": "Loops",
+        "link": "https://www.youtube.com/watch?v=8JZ0G3YvFfM&list=PLPt2dINI2MIbwnEoeHZnUHeUHjTd8x4F3&index=11"
+      },
+      {
+        "name": "1D Array",
+        "link": "https://www.youtube.com/watch?v=8JZ0G3YvFfM&list=PLPt2dINI2MIbwnEoeHZnUHeUHjTd8x4F3&index=11"
+      }
+    ],
+    "problems": [
+      {
+        "id": 0,
+        "name": "A. Vasya and Socks",
+        "link": "https://codeforces.com/problemset/problem/460/A"
+      },
+      {
+        "id": 1,
+        "name": "B. Vasya and Chocolate",
+        "link": "https://codeforces.com/problemset/problem/1065/B"
+      },
+      {
+        "id": 2,
+        "name": "C. Vasya and Cornfield",
+        "link": "https://codeforces.com/problemset/problem/1051/C"
+      },
+      {
+        "id": 3,
+        "name": "D. Vasya and Multisets",
+        "link": "https://codeforces.com/problemset/problem/1051/D"
+      },
+      {
+        "id": 4,
+        "name": "E. Vasya and Robot",
+        "link": "https://codeforces.com/problemset/problem/354/E"
+      },
+      {
+        "id": 5,
+        "name": "F. Vasya and Beautiful Arrays",
+        "link": "https://codeforces.com/problemset/problem/1085/F"
+      },
+      {
+        "id": 6,
+        "name": "G. Vasya and Wrestling",
+        "link": "https://codeforces.com/problemset/problem/493/G"
+      },
+      {
+        "id": 7,
+        "name": "H. Vasya and Isolated Vertices",
+        "link": "https://codeforces.com/problemset/problem/1065/H"
+      },
+      {
+        "id": 8,
+        "name": "I. Vasya and Robot",
+        "link": "https://codeforces.com/problemset/problem/354/I"
+      },
+      {
+        "id": 9,
+        "name": "J. Vasya and Chess",
+        "link": "https://codeforces.com/problemset/problem/493/J"
+      },
+      {
+        "id": 10,
+        "name": "K. Vasya and Wrestling",
+        "link": "https://codeforces.com/problemset/problem/493/K"
+      },
+      {
+        "id": 11,
+        "name": "L. Vasya and Isolated Vertices",
+        "link": "https://codeforces.com/problemset/problem/1065/L"
+      }
+    ]
+  }
+]

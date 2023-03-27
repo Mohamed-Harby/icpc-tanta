@@ -1,0 +1,44 @@
+.wrapper {
+    background-color: #24303D;
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    /* padding-right: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.wrapper:hover {
+    background-color: #3E4D5E;
+    cursor: pointer;
+}
+
+.cardTitle { 
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardStatics {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 1rem;
+  }
+
+  .staticsButton {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #3E4D5E;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 34px;
+    border-radius: 20px;
+  }

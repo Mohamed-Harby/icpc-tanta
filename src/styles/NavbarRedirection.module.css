@@ -1,0 +1,30 @@
+.redirectionLink:hover {
+    background-color: #3E4D5E;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .redirectionLink:hover p {
+      color: #fff;
+  }
+  
+  .redirectionLink p {
+      color: #fff;
+      font-size: 1rem;
+  }
+  
+  .redirectionLink p {
+      margin-right: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  
+  .redirectionLink img {
+      margin-left: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  
